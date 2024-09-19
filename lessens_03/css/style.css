@@ -1,5 +1,7 @@
-@import url("reset.css") * {
-   color: black;
+@import url("reset.css");
+
+* {
+   color: rgb(0, 0, 0);
 }
 
 span {
@@ -14,6 +16,24 @@ div {
    color: brown;
 }
 
-.article-20thcentury span{
+.article-20thcentury span {
    color: aquamarine;
+}
+.modernity,
+.market {
+   color: blueviolet;
+}
+
+.article-histori p {
+   color: black;
+}
+
+div .text{
+   color: red;
+}
+p, h3 {
+   color: brown;
+}
+p {
+   color: rgb(0, 255, 115);
 }
