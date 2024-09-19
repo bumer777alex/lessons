@@ -1,0 +1,19 @@
+@import url("reset.css") * {
+   color: black;
+}
+
+span {
+   color: blueviolet;
+}
+
+div {
+   color: blue;
+}
+
+#link-modernity {
+   color: brown;
+}
+
+.article-20thcentury span{
+   color: aquamarine;
+}
