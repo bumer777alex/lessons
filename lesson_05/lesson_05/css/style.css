@@ -1,0 +1,273 @@
+@import url("fonts.css");
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,700,800,900&display=swap");
+
+.block-main,
+.big-title,
+.block1 {
+   font-family: "Roboto", sans-serif;
+}
+
+.big-title {
+   background-color: #cad2f5;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   padding-left: 850px;
+}
+
+.text,
+.title {
+   max-width: 539px;
+   max-height: 132px;
+   margin: auto;
+}
+
+.title {
+   color: var(--Colour-Main-Blue-900, #091133);
+   font-feature-settings: 'liga' off, 'clig' off;
+   font-size: 50px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 66px;
+   letter-spacing: 1px;
+}
+
+.title {
+   margin-bottom: 20px;
+   max-width: 539px;
+   max-height: 132px;
+}
+
+.text {
+   color: var(--Colour-Main-Blue-500, #505F98);
+   max-width: 539px;
+   max-height: 132px;
+   line-height: 30px;
+   font-size: 18px;
+
+}
+
+.button {
+   margin-left: 682px;
+   margin-top: 74px;
+   color: rgb(207, 217, 228);
+   margin-bottom: 100px;
+}
+
+.button>a {
+   display: inline-block;
+   min-width: 189px;
+   min-height: 26px;
+   text-align: center;
+   padding-block: 10px;
+   margin-right: 30px;
+}
+
+.kit {
+   background-color: #091133;
+}
+
+.more {
+   background-color: rgb(187, 199, 195)
+}
+
+.more {
+   color: black;
+}
+
+.title1,
+.text1 {
+   max-width: 520px;
+   max-height: 140px;
+   margin: auto;
+}
+
+.title1 {
+   color: var(--Colour-Main-Blue-900, #091133);
+   font-size: 36px;
+   font-weight: 500;
+   line-height: 48px;
+   margin-bottom: 16px;
+}
+
+.text1 {
+   color: var(--Colour-Main-Blue-400, #6F7CB2);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   font-style: normal;
+
+}
+
+.conteiner {
+   max-width: 520px;
+   margin: auto;
+   margin-top: 70px;
+   margin-bottom: 100px;
+}
+
+.conteiner-1 {
+   margin-left: -30px;
+   margin-left: -30px;
+   font-size: 0;
+}
+
+.item {
+   width: 50%;
+   display: inline-block;
+   margin-bottom: 30px;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+.title-item {
+   color: var(--Colour-Main-Blue-900, #091133);
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 26px;
+}
+
+.text-item {
+   color: var(--Colour-Main-Grey-600, #5D6970);
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 18px;
+}
+
+.item>img {
+   padding-bottom: 14px;
+}
+
+.title-item {
+   padding-bottom: 6px;
+}
+
+.block-3 {
+   font-family: "Epilogue", sans-serif;
+   background: #FDF0E9;
+   color: var(--Text_Dark, #391400);
+   margin-bottom: 30px;
+}
+
+
+.item-1 {
+   padding-bottom: 30px;
+}
+
+.title-3 {
+   font-size: 40px;
+   font-weight: 800;
+   line-height: 48px;
+}
+
+.title-2 {
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 32px;
+   padding-bottom: 19px;
+}
+
+.text-2 {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 32px;
+   padding-bottom: 26px;
+}
+
+.item-2>a {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 32px;
+}
+
+.item-2 {
+   display: inline-block;
+   padding: 48px 48px 19px 48px;
+   max-width: 391px;
+   border: 1px solid #F3D1BF;
+}
+
+.title-3 {
+   max-width: 336px;
+   margin: auto;
+}
+
+.conteiner-2 {
+   display: inline-block;
+   font-size: 0px;
+   margin: auto;
+}
+
+.section {
+   background-color: black;
+   color: var(--Grey-60, #999);
+   font-family: "Epilogue", sans-serif;
+}
+
+.big-title-black {
+   color: var(--Absolute-White, #FFF);
+   font-size: 38px;
+   font-weight: 700;
+   line-height: 150%;
+   margin-left: 161px;
+   margin-bottom: 14px;
+   max-width: 1297px;
+}
+
+.text-black-1 {
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 150%;
+   margin-left: 161px;
+   margin-bottom: 80px;
+   max-width: 1297px;
+   padding-right: 300px;
+}
+
+.items-black {
+   margin-left: 161px;
+   max-width: 1597px;
+   font-size: 0px;
+}
+
+.item-black {
+   font-size: 0px;
+   width: 30%;
+   display: inline-block;
+   margin: 0 30px 30px 0;
+   background: linear-gradient(222deg, rgba(229, 0, 0, 0.50) -208.03%, rgba(229, 0, 0, 0.00) 41.32%), #0F0F0F;
+}
+
+.icon-black {
+   padding-bottom: 30px;
+}
+
+.title-black {
+   text-align: center;
+   color: #FFF;
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 150%;
+   display: inline-block;
+}
+
+.text-black {
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 150%;
+}
+
+.box-black {
+   padding: 50px;
+}
+
+.icon-black>img {
+   padding-right: 16px;
+   vertical-align: middle;
+}
+
+/* .img-black {
+   width: 50px;
+   height: 40px;
+} */
