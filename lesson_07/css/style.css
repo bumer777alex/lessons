@@ -290,12 +290,11 @@
 
  .game {
  	font-family: "Epilogue", sans-serif;
- 	width: 1200px;
- 	background: rgb(0, 0, 0);
- 	background: linear-gradient(0deg, rgba(0, 0, 0, 1) 49%, rgba(57, 0, 214, 0.454) 51%);
+	display: inline-block;
+ 	width: 1500px;
+ 	background: linear-gradient(0deg, rgba(0, 0, 0, 1) 49%, rgba(41, 0, 151, 0.454) 51%);
  	margin: 0 auto;
  	text-transform: uppercase;
-
  }
 
  .game__01 {
