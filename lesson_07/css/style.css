@@ -78,7 +78,6 @@
  	border-radius: 56px;
  	background: #F0F0F6;
  	width: 542.983px;
- 	height: 617px;
  	margin: 0 auto;
  }
 
@@ -87,14 +86,10 @@
  	border-radius: 34px;
  	background: #4A3AFF;
  	width: 494.98px;
- 	height: 271.17px;
  	margin: 24px;
- 	flex-direction: column;
- 	align-items: center;
- 	display: inline-flex;
  	align-items: center;
  	padding-inline: 139px;
- 	padding-block: 45px;
+ 	margin-bottom: 45px;
  	margin-block-end: 34px;
  }
 
@@ -137,7 +132,7 @@
  	font-style: normal;
  	font-weight: 700;
  	line-height: 38px;
- 	padding-left: 37px;
+ 	padding-inline: 37px;
 
  }
 
@@ -173,6 +168,11 @@
  	margin-bottom: 32px;
  }
 
+ .intro___p {
+ 	margin-block-end: 35px;
+ }
+
+
  .promote__product__h2 {
  	color: #391400;
  	font-family: "Epilogue";
@@ -180,12 +180,11 @@
  	font-style: normal;
  	font-weight: 700;
  	line-height: 32px;
- 	margin-block-start: 51px;
+
  	margin-block-end: 35px;
  }
 
  .intro___p,
- .promote__product__p,
  .promote__product__p,
  .service__help_p,
  .service__help__li__p,
@@ -201,6 +200,10 @@
  	flex-shrink: 0;
  }
 
+ .promote__product__p {
+ 	margin-block-end: 65px;
+ }
+
  .promote__product__ul {
  	color: #391400;
  	font-family: "Epilogue";
@@ -208,7 +211,7 @@
  	font-style: normal;
  	font-weight: 400;
  	line-height: 32px;
- 	margin-block: 34px;
+ 	margin-block-end: 34px;
  }
 
  .promote__product__li::before {
@@ -229,12 +232,14 @@
  	font-style: normal;
  	font-weight: 700;
  	line-height: 32px;
- 	margin-block-start: 64px;
  	margin-block-end: 35px;
  }
 
+ .service__help_p {
+ 	margin-block-end: 65px;
+ }
+
  .service__help__ol {
- 	margin-block-start: 28px;
  	margin-block-end: 32px;
 
  }
@@ -246,6 +251,10 @@
  	font-style: normal;
  	font-weight: 400;
  	line-height: 32px;
+ }
+
+ .service__help__li__p {
+ 	margin-block-end: 69px;
  }
 
  .block__quote {
@@ -277,4 +286,101 @@
  	font-weight: 400;
  	line-height: 32px;
  	padding-inline-start: 80px;
+ }
+
+
+ .game {
+ 	font-family: "Epilogue", sans-serif;
+ 	width: 1200px;
+ 	background: rgb(0, 0, 0);
+ 	margin: 0 auto;
+ 	text-transform: uppercase;
+
+ }
+
+ .game__01 {
+ 	background-color: #e29090;
+ 	width: 100px;
+ 	height: 30px;
+ 	text-align: center;
+ 	margin-inline: 550px;
+ }
+
+ .game__02 {
+ 	background-color: #ff3aad;
+ 	width: 50px;
+ 	height: 80px;
+ 	margin-left: 550px;
+ 	visibility: hidden;
+ }
+
+ .game__03 {
+ 	background-color: #ff3a3a;
+ 	width: 340px;
+ 	height: 40px;
+ 	margin-left: 550px;
+ 	visibility: hidden;
+ }
+
+ .game__04 {
+ 	background-color: #3a47ff;
+ 	width: 40px;
+ 	height: 100px;
+ 	margin-left: 850px;
+ 	visibility: hidden;
+ }
+
+ .game__05 {
+ 	background-color: #3ac7ff;
+ 	width: 200px;
+ 	height: 40px;
+ 	margin-left: 690px;
+ 	visibility: hidden;
+ }
+
+ .game__06 {
+ 	background-color: #caff3a;
+ 	width: 50px;
+ 	height: 150px;
+ 	margin-left: 690px;
+ 	visibility: hidden;
+ }
+
+ .game__07 {
+ 	background-color: #ff573a;
+ 	width: 100px;
+ 	height: 60px;
+ 	margin-left: 690px;
+ 	visibility: hidden;
+ }
+
+ .game__08 {
+ 	background-color: #ff3aad;
+ 	width: 20px;
+ 	height: 200px;
+ 	margin-left: 770px;
+ 	visibility: hidden;
+ }
+
+ .game__09 {
+ 	background-color: #ff3a4a;
+ 	width: 130px;
+ 	height: 20px;
+ 	margin-left: 770px;
+ 	visibility: hidden;
+ }
+
+ .game__10 {
+ 	background-color: #ff993a;
+ 	width: 100px;
+ 	height: 30px;
+ 	margin-left: 800px;
+ 	color: #ffffff;
+ 	visibility: hidden;
+ 	text-align: center;
+ }
+
+ .games>*:hover+*,
+ .games>*:hover {
+ 	visibility: visible;
  }
