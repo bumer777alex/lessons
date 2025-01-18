@@ -1,0 +1,122 @@
+ @import url("fonts.css");
+@import url("reset.css");
+
+/* Загальні стилі */
+body {
+	font-family: "Epilogue", sans-serif;
+	background-color:  #ada58a;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+.wraper {
+	width: 90%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #f0e68c;
+	padding: 20px;
+	text-align: center;
+	border-bottom: 2px solid #ccc;
+}
+
+.header__title {
+	font-size: 24px;
+	margin: 0;
+	color: #333;
+	transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.header__title:hover {
+	color: #ff6347;
+	text-shadow: 2px 2px 5px rgba(255, 99, 71, 0.5);
+}
+
+/* Блок з іконками */
+.icon__section {
+	padding: 20px 0;
+}
+
+.icon__item {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.icon__item img {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+	transition: transform 0.3s ease;
+}
+
+.icon__item img:hover {
+	transform: scale(1.2);
+}
+
+.icon__description {
+	font-size: 14px;
+	color: #555;
+}
+
+/* Блок із зображеннями */
+.pictures__section {
+	padding: 20px 0;
+}
+
+.pictures__item {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.pictures__item img {
+	width: 80%;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pictures__item img:hover {
+	transform: scale(1.05);
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.pictures__description {
+	font-size: 14px;
+	color: #555;
+}
+
+.footer {
+	background-color: #f0e68c;
+	padding: 10px;
+	text-align: center;
+	border-top: 2px solid #ccc;
+}
+
+.footer__text {
+	margin: 0;
+	color: #333;
+	font-size: 16px;
+	transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.footer__text:hover {
+	color: #4682b4;
+	text-shadow: 1px 1px 4px rgba(70, 130, 180, 0.5);
+}
+
+.header__title {
+	font-size: 32px;
+	font-weight: bold;
+	color: #333;
+}
+
+.icon__description,
+.pictures__description {
+	font-size: 26px;
+	font-weight: 500;
+	color: #444;
+}
